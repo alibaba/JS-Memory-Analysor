@@ -3,7 +3,8 @@
 
 ## Overview
 Memory leak is an important problem in JavaScript/NodeJS, though they have Garbage collection mechanism. Now there are some tools are provided to detect memory leak for JavaScript/NodeJS, such as Chrome Devtools, Webstorm and so on. These tools solve our problems in some extent. However, there are also some problems left, such as not smart enough to recommend suspected objects.
-　　
+</br>
+</br>
 Compared to above, JS Memory Analysor provides more convenient functionality to help us find memory leak objects more quickly. To retained the habits of JS developers and reduce the learning cost, JS Memory Analysor is developed base on Chrome Devtools.
 
 ## Table of Contents
