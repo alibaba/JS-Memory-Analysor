@@ -1,0 +1,28 @@
+{
+  "name": "JS-Memory-Analysor",
+  "description": "A tool to detect js memory leaks",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js -p 9999"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "install-node": "^6.11.0"
+  },
+  "keywords": [
+    "memory leak",
+    "chrome devtools"
+  ],
+  "license": "BSD",
+  "devDependencies": {
+    "ajv": "^5.1.5",
+    "eslint": "3.10.0"
+  },
+  "dependencies": {
+    "commander": "^2.14.1",
+    "express": "^4.16.2"
+  }
+}
